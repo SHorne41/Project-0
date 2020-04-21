@@ -1,0 +1,15 @@
+$backgroundColor: #f5a627;
+
+.cardDescription{
+    border: 1px dashed black;
+    background-color: $backgroundColor;
+    margin: 5px;
+}
+
+.cardTitle{
+    background-color: $backgroundColor;
+}
+
+h1{
+    text-align: center;
+}

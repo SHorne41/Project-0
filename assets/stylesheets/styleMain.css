@@ -1,3 +1,15 @@
-h1 {
-
+.cardDescription {
+  border: 1px dashed black;
+  background-color: #f5a627;
+  margin: 5px;
 }
+
+.cardTitle {
+  background-color: #f5a627;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styleMain.css.map */
