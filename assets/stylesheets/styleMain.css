@@ -1,11 +1,12 @@
 .cardDescription {
   border: 1px dashed black;
-  background-color: #f5a627;
+  background-color: rgba(245, 166, 39, 0.7);
   margin: 5px;
+  padding: 5px;
 }
 
 .cardTitle {
-  background-color: #f5a627;
+  background-color: rgba(245, 166, 39, 0.7);
   margin: 5px;
 }
 

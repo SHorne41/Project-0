@@ -1,9 +1,10 @@
-$backgroundColor: #f5a627;
+$backgroundColor: rgba(245, 166, 39, 0.7);
 
 .cardDescription{
     border: 1px dashed black;
     background-color: $backgroundColor;
     margin: 5px;
+    padding: 5px;
 }
 
 .cardTitle{
