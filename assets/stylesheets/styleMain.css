@@ -1,23 +1,48 @@
-.cardDescription {
-  border: 1px dashed black;
+.cardTitle, .pageDescription, .pageTitle {
+  border-color: #282929;
+  border-width: 5px;
+}
+
+.pageTitle {
   background-color: rgba(245, 166, 39, 0.7);
+  border-style: outset;
+  border-color: #282929;
   margin: 5px;
+}
+
+.pageDescription {
+  border-style: inset;
+  background-color: rgba(245, 166, 39, 0.7);
+  margin-top: 5px;
+  margin-left: 5px;
   padding: 5px;
 }
 
 .cardTitle {
+  box-shadow: 8px 8px 8px black;
   background-color: rgba(245, 166, 39, 0.7);
   margin: 5px;
 }
 
-#brand {
-  width: 150px;
-  height: 75px;
+.cardDescription {
+  border: 1px black;
+  border-width: 5px;
+  border-style: double;
+  background-color: rgba(245, 166, 39, 0.7);
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 5px;
 }
 
 .cardImg {
   width: 220px;
   height: 319px;
+  margin-top: 5px;
+}
+
+#brand {
+  width: 150px;
+  height: 75px;
 }
 
 h1 {
