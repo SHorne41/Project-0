@@ -58,14 +58,14 @@ h1{
     overflow: auto;
 }
 
-.spellTitle img {
-  float: right;
-  width: 100px;
-  height: 100px;
-  background: #555;
-  height: 50px;
-  width: 50px;
-}
+.spellTitle {
+    img {
+      float: right;
+      background: #555;
+      height: 50px;
+      width: 50px;
+    }
+} 
 
 .spellTitle h2 {
   position: relative;
