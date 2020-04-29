@@ -22,7 +22,7 @@ $backgroundColor: rgba(245, 166, 39, 0.7);
     padding: 5px;
 }
 
-.cardTitle{
+%cardTitle{
     @extend %title;
     box-shadow: 8px 8px 8px black;
     background-color: $backgroundColor;
@@ -55,6 +55,7 @@ h1{
 }
 
 .spellTitle{
+    @extend %cardTitle;
     overflow: auto;
 }
 
@@ -65,7 +66,7 @@ h1{
       height: 50px;
       width: 50px;
     }
-} 
+}
 
 .spellTitle h2 {
   position: relative;

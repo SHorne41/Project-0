@@ -1,4 +1,4 @@
-.cardTitle, .pageDescription, .pageTitle {
+.spellTitle, .pageDescription, .pageTitle {
   border-color: #282929;
   border-width: 5px;
 }
@@ -18,7 +18,7 @@
   padding: 5px;
 }
 
-.cardTitle {
+.spellTitle {
   box-shadow: 8px 8px 8px black;
   background-color: rgba(245, 166, 39, 0.7);
   margin: 5px;
