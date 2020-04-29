@@ -5,6 +5,24 @@ $backgroundColor: rgba(245, 166, 39, 0.7);
     border-width: 5px;
 }
 
+%cardTitle{
+    @extend %title;
+    box-shadow: 8px 8px 8px black;
+    background-color: $backgroundColor;
+    margin: 5px;
+}
+
+body{
+    background: url(/assets/images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @media only screen and (max-device-width: 480px){
+        background-image: url(/assets/images/phoneBackground.jpg);
+    }
+}
+
 .pageTitle{
     @extend %title;
     background-color: $backgroundColor;
@@ -20,13 +38,6 @@ $backgroundColor: rgba(245, 166, 39, 0.7);
     margin-top: 5px;
     margin-left: 5px;
     padding: 5px;
-}
-
-%cardTitle{
-    @extend %title;
-    box-shadow: 8px 8px 8px black;
-    background-color: $backgroundColor;
-    margin: 5px;
 }
 
 .cardDescription{
@@ -57,6 +68,10 @@ h1{
 .spellTitle{
     @extend %cardTitle;
     overflow: auto;
+}
+
+.cardTitle{
+    @extend %cardTitle;
 }
 
 .spellTitle {
